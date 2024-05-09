@@ -1,0 +1,98 @@
+.p,
+.yearsOfExperience {
+  margin: 0;
+  font-weight: 600;
+}
+.yearsOfExperience {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-100);
+}
+.yearsOfExperienceContainer {
+  position: relative;
+}
+.k,
+.socialFollowers {
+  margin: 0;
+  font-weight: 600;
+}
+.socialFollowers {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-100);
+}
+.kSocialFollowersContainer {
+  position: relative;
+}
+.kSocialFollowersWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.p1,
+.projectCompleted1 {
+  margin: 0;
+  font-weight: 600;
+}
+.projectCompleted1 {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-100);
+}
+.projectCompleted {
+  position: relative;
+}
+.projectCompletedWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.k1,
+.socialProfiles {
+  margin: 0;
+  font-weight: 600;
+}
+.socialProfiles {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-100);
+}
+.kSocialProfilesContainer {
+  position: relative;
+}
+.kSocialProfilesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl);
+}
+.iphone13Mini1Inner,
+.yearsOfExperienceParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.yearsOfExperienceParent {
+  flex: 1;
+  background-color: var(--color-lightskyblue-200);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-13xl-5) var(--padding-xl) var(--padding-3xl-5);
+  gap: var(--gap-59xl);
+}
+.iphone13Mini1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-17xl) var(--padding-12xs);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-clash-display);
+}

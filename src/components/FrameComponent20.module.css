@@ -1,0 +1,209 @@
+.frameChild {
+  width: 18.1px;
+  height: 16.7px;
+  position: relative;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-6) 0 0;
+}
+.engage,
+.withYourFollowers {
+  margin: 0;
+}
+.engageWithYourContainer {
+  position: relative;
+  font-weight: 500;
+}
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameContainer {
+  border-radius: 8.37px;
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-black);
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-4xs) var(--padding-7xs)
+    var(--padding-2xs-8);
+  gap: var(--gap-mini-7);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.increasenInSales,
+.p {
+  margin: 0;
+}
+.increasenInSalesContainer {
+  position: relative;
+  font-size: var(--font-size-4xs-7);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  text-align: center;
+  display: none;
+}
+.frameItem {
+  margin-top: -4.2999999999999545px;
+  margin-left: -4.300000000000068px;
+  height: 103.2px;
+  width: 103.2px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.frameWrapper1,
+.increasenInSalesParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.increasenInSalesParent {
+  cursor: pointer;
+  border: 0.7px solid var(--color-white);
+  padding: 0;
+  background-color: var(--color-white);
+  height: 94.6px;
+  width: 94.6px;
+  border-radius: 315.46px;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-3);
+}
+.frameWrapper1 {
+  width: 294.4px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.layer2Icon {
+  width: 18.1px;
+  height: 16.7px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer2Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-6) 0 0;
+}
+.engage1,
+.withYourFollowers1 {
+  margin: 0;
+}
+.engageWithYourContainer1 {
+  position: relative;
+  font-weight: 500;
+}
+.frameParent1 {
+  border-radius: 8.37px;
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-4xs) var(--padding-7xs)
+    var(--padding-2xs-8);
+  gap: var(--gap-mini-7);
+}
+.maskGroupIcon {
+  width: 178.5px;
+  height: 159.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: -17.4px;
+  left: -35.6px;
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  border-radius: 8.37px;
+  background-color: var(--color-tan);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi-5) var(--padding-mid-4) var(--padding-3xl-2)
+    var(--padding-lg-8);
+  position: relative;
+  gap: var(--gap-xl-7);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.buildYourBran,
+.outToSocial {
+  margin: 0;
+}
+.buildYourBranContainer {
+  position: relative;
+  font-size: var(--font-size-7xl-8);
+  font-weight: 600;
+  font-family: var(--font-clash-display);
+  color: var(--color-gray-500);
+}
+.loremIpsumDolor,
+.loremIpsumDolor1 {
+  width: 285px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumDolor1 {
+  width: 273px;
+}
+.buildYourBranReachOutToParent,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buildYourBranReachOutToParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini-8);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 var(--padding-base-5);
+  font-size: var(--font-size-2xs-7);
+}
+.frameParent,
+.iphone13Mini1Inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.iphone13Mini1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) var(--padding-2xs-2);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xs-1);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

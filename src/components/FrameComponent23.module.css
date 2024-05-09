@@ -1,0 +1,270 @@
+.loremIpsumDolor {
+  width: 330px;
+  position: absolute;
+  margin: 0 !important;
+  top: -42px;
+  right: -255px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.frameChild {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseWrapper {
+  height: 36px;
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.facebookIcon {
+  height: 16px;
+  width: 15px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent1 {
+  align-self: stretch;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.frameDiv,
+.loremIpsumDolorSitAmetConParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.loremIpsumDolorSitAmetConParent {
+  width: 69px;
+  flex-direction: row;
+  position: relative;
+}
+.frameItem {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+  z-index: 1;
+}
+.snapchatIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.snapchatWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi);
+}
+.ellipseParent,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.telegramIcon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.telegramWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.start14Days {
+  position: relative;
+  font-size: var(--font-size-3xs-3);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 99px;
+}
+.start14DaysFreeTrialWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs-3) var(--padding-xs-1) var(--padding-xs-4);
+  background-color: var(--color-gray-300);
+  flex: 0.8492;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.vuesaxboldplayCircleIcon {
+  height: 13.9px;
+  width: 13.9px;
+  position: relative;
+  min-height: 14px;
+}
+.watchADemo {
+  position: relative;
+  font-size: var(--font-size-3xs-3);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 64px;
+}
+.watchADemoWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-4) 0 0;
+}
+.frameWrapper2,
+.vuesaxboldplayCircleParent,
+.watchADemoWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vuesaxboldplayCircleParent {
+  cursor: pointer;
+  border: 1.2px solid var(--color-black);
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-lg-8);
+  background-color: var(--color-white);
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-7xs-8);
+  z-index: 1;
+}
+.frameWrapper2 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-8xs-6) 0 0;
+}
+.twitterIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.twitterWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi-7);
+}
+.frameParent2,
+.frameParent3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.frameParent3 {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-4);
+  min-width: 178px;
+}
+.frameParent2 {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.frameGroup,
+.frameWrapper1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  flex-direction: row;
+  padding: 0 var(--padding-xs) 0 var(--padding-10xs);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.discordIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.discordWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-43xl);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-3);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-smi);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

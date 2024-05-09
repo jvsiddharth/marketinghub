@@ -1,0 +1,65 @@
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.loremIpsumDolorSitAmetConWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameChild {
+  height: 37.4px;
+  width: 37.4px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 37px;
+}
+.ceo,
+.eleanorPena {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.ceo {
+  min-width: 24px;
+}
+.eleanorPenaParent,
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-8xs-7);
+}
+.ellipseParent {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-12xs-1) 0 0;
+  gap: var(--gap-xs-7);
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frameParent {
+  align-items: flex-start;
+  gap: var(--gap-9xl-8);
+}
+.frameWrapper {
+  border-radius: 9.35px;
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-lgi-8) var(--padding-4xl) var(--padding-lgi-7);
+  text-align: left;
+  font-size: var(--font-size-smi-5);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

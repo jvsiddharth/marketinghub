@@ -1,0 +1,52 @@
+.giveOurUsers,
+.greatExperience {
+  margin: 0;
+}
+.giveOurUsersContainer {
+  width: 248px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.frameParent,
+.giveOurUsersAGreatExperieParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-smi-5);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.giveOurUsersAGreatExperieParent {
+  flex: 1;
+  background-color: var(--color-tan);
+  align-items: center;
+  padding: var(--padding-7xl-4) var(--padding-lg-1) var(--padding-7xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+}
+.iphone13Mini1Inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl-1);
+  color: var(--color-gray-500);
+  font-family: var(--font-clash-display);
+}

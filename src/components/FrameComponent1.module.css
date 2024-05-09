@@ -1,0 +1,60 @@
+.contactInfo {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 90px;
+}
+.vuesaxlinearcallIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.confirmationBoxes {
+  position: relative;
+  font-weight: 500;
+}
+.toggleSwitches {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.vuesaxlinearsmsIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.soroushnorozyuigmailcom {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.toggleSwitches1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.formValidation,
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.searchBar {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  color: var(--color-gray-600);
+}
+.formValidation {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 162px;
+  text-align: left;
+  font-size: 15.3px;
+  color: var(--color-gray-700);
+  font-family: var(--font-inter);
+}

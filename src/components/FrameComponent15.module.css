@@ -1,0 +1,39 @@
+.vuesaxtwotonepolygonMaticIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.socialMedia {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+}
+.frameParent,
+.socialMediaWrapper,
+.vuesaxtwotonepolygonMaticParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameParent,
+.vuesaxtwotonepolygonMaticParent {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-4xs);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xl) var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

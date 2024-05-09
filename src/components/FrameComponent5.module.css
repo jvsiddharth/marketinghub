@@ -1,0 +1,76 @@
+.loremIpsumDolor {
+  align-self: stretch;
+  height: 90px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumDolorSitAmetConWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 45.9px;
+  width: 45.9px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ceo,
+.eleanorPena {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+}
+.ceo {
+  min-width: 30px;
+}
+.eleanorPenaParent,
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-7xs-7);
+}
+.ellipseParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-mini-3);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-16xl-3);
+  flex-shrink: 0;
+}
+.frameWrapper {
+  flex: 1;
+  border-radius: 11.46px;
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-6xl-2) var(--padding-9xl-1) var(--padding-6xl-2)
+    var(--padding-9xl-2);
+  box-sizing: border-box;
+  min-width: 311px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 15.3px;
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}

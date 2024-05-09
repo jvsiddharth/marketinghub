@@ -1,0 +1,74 @@
+.giveOurUsers,
+.greatExperience {
+  margin: 0;
+}
+.giveOurUsersContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mid-2);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 15.3px;
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.desktop1Inner,
+.giveOurUsersAGreatExperieParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.giveOurUsersAGreatExperieParent {
+  flex: 1;
+  background-color: var(--color-tan);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-21xl-2) var(--padding-59xl);
+  gap: var(--gap-19xl);
+}
+.desktop1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) var(--padding-3xl) 0;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 750px) {
+  .giveOurUsersContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .giveOurUsersAGreatExperieParent {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .giveOurUsersContainer {
+    font-size: var(--font-size-lg);
+  }
+  .giveOurUsersAGreatExperieParent {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

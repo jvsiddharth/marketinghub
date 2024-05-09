@@ -1,0 +1,111 @@
+.marketingExpert,
+.wantToTalk {
+  margin: 0;
+}
+.wantToTalkContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.shapesIcon {
+  height: 45px;
+  width: 46px;
+  position: absolute;
+  margin: 0 !important;
+  top: -23px;
+  right: -15.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.wantToTalkToAMarketingExParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.contactWithUs {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 121px;
+}
+.contactWithUsWrapper,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.contactWithUsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi-5) var(--padding-5xl-5);
+  background-color: var(--color-gray-300);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.contactWithUsWrapper:hover {
+  background-color: var(--color-dimgray-200);
+}
+.frameContainer {
+  width: 377px;
+  justify-content: center;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  width: 255.9px;
+  height: 202.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: -35.4px;
+  left: -79px;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1020px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightskyblue-100);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-xl);
+  position: relative;
+  gap: var(--gap-25xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 750px) {
+  .wantToTalkContainer {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .wantToTalkContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .frameParent {
+    gap: var(--gap-3xl);
+  }
+}

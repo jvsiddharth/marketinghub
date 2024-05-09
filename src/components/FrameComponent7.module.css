@@ -1,0 +1,194 @@
+.frameChild {
+  width: 26px;
+  height: 24px;
+  position: relative;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.engage,
+.withYourFollowers {
+  margin: 0;
+}
+.engageWithYourContainer {
+  position: relative;
+  font-weight: 500;
+}
+.frameContainer {
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini);
+  gap: var(--gap-2xl);
+}
+.increasenInSales,
+.p {
+  margin: 0;
+}
+.increasenInSalesContainer {
+  position: relative;
+  font-weight: 500;
+  display: none;
+  z-index: 0;
+}
+.frameItem {
+  margin-top: -6.099999999999909px;
+  margin-left: -6.199999999999989px;
+  height: 148px;
+  width: 148px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.maskGroupIcon {
+  height: 229px;
+  width: 255.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: -137.1px;
+  left: -221.2px;
+  z-index: 2;
+}
+.increasenInSalesParent {
+  width: 135.7px;
+  height: 135.7px;
+  border-radius: 452.38px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-4xs);
+}
+.layer2Icon {
+  width: 26px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer2Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.engage1,
+.withYourFollowers1 {
+  margin: 0;
+}
+.engageWithYourContainer1 {
+  position: relative;
+  font-weight: 500;
+}
+.frameParent2,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  padding: var(--padding-5xs) var(--padding-mini);
+  gap: var(--gap-2xl);
+}
+.frameWrapper2 {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--font-size-smi);
+}
+.frameParent1 {
+  width: 278.9px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-8xl-2);
+}
+.frameGroup,
+.frameParent1,
+.frameWrapper1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs);
+  text-align: center;
+  font-size: var(--font-size-smi-5);
+}
+.frameGroup {
+  width: 489px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-tan);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-9xl) var(--padding-6xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl-1);
+  min-width: 489px;
+  max-width: 100%;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .frameGroup {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

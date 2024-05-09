@@ -1,0 +1,69 @@
+.bringYourTarget,
+.tigetherOnSocial {
+  margin: 0;
+}
+.bringYourTargetContainer {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  font-family: var(--font-clash-display);
+  color: var(--color-gray-500);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.loremIpsumDolor1 {
+  width: 588px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.bringYourTargetUsersTigethParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bringYourTargetUsersTigethParent {
+  align-self: stretch;
+  gap: var(--gap-xl-5);
+}
+.frameWrapper {
+  width: 605px;
+  padding: var(--padding-32xl-5) 0 0;
+  box-sizing: border-box;
+  min-width: 605px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .frameWrapper {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .frameWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bringYourTargetContainer {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bringYourTargetContainer {
+    font-size: var(--font-size-5xl);
+  }
+}

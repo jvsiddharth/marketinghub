@@ -1,0 +1,161 @@
+.frameChild {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  margin: 0 !important;
+  right: 162px;
+  bottom: 12px;
+  border-radius: 50%;
+  object-fit: contain;
+  z-index: 3;
+}
+.increasenInSales,
+.p {
+  margin: 0;
+}
+.increasenInSalesContainer {
+  position: relative;
+  font-weight: 500;
+}
+.increasenInSalesWrapper {
+  position: absolute;
+  top: 94.1px;
+  left: 93.2px;
+  border-radius: 452.38px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-32xl) var(--padding-xs) var(--padding-32xl)
+    var(--padding-mini-3);
+}
+.snapchatIcon,
+.telegramIcon {
+  position: absolute;
+  top: 64px;
+  left: 233px;
+  border-radius: 32.08px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  z-index: 3;
+}
+.telegramIcon {
+  top: 148px;
+  left: 29px;
+  border-radius: 38.57px;
+  width: 27px;
+  height: 27px;
+}
+.frameItem {
+  position: absolute;
+  top: 41.6px;
+  left: 41.6px;
+  border-radius: 50%;
+  border: 0 solid var(--color-white);
+  box-sizing: border-box;
+  width: 239.8px;
+  height: 239.8px;
+  z-index: 1;
+}
+.ellipseIcon,
+.frameInner {
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+}
+.frameInner {
+  left: 0;
+  border: 0 solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.ellipseIcon {
+  left: 56px;
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  z-index: 3;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.frameGroup {
+  width: 323px;
+  height: 323px;
+  position: relative;
+  max-width: 100%;
+}
+.twitterIcon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  right: 77px;
+  bottom: 153px;
+  border-radius: 31.91px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.ellipseParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ellipseParent {
+  width: 489px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightskyblue-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-58xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 489px;
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: row;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-smi-5);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .ellipseParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ellipseParent {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,101 @@
+.services {
+  display: inline-block;
+  min-width: 64px;
+}
+.checkWebsiteUrl,
+.incidentResponder,
+.secureManagedIt,
+.services {
+  position: relative;
+  font-weight: 500;
+}
+.checkWebsiteUrl {
+  line-height: 19.2px;
+}
+.lockerSecurity {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 113px;
+}
+.incidentResponderParent,
+.servicesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.incidentResponderParent {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+  color: var(--color-dimgray-400);
+}
+.servicesParent {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 90px;
+}
+.aboutUs,
+.payment {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 66px;
+}
+.payment {
+  min-width: 65px;
+}
+.makeSavingMore,
+.talkToUs,
+.taxCaculator {
+  position: relative;
+  font-weight: 500;
+}
+.taxCaculator {
+  align-self: stretch;
+}
+.talkToUs {
+  display: inline-block;
+  min-width: 71px;
+}
+.aboutUsParent,
+.paymentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.paymentParent {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+  color: var(--color-dimgray-400);
+}
+.aboutUsParent {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 86px;
+}
+.frameParent,
+.iphone13Mini1Inner {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-32xl);
+}
+.iphone13Mini1Inner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xl) var(--padding-6xl) var(--padding-4xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 15.3px;
+  color: var(--color-gray-700);
+  font-family: var(--font-inter);
+}

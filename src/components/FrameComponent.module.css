@@ -1,0 +1,206 @@
+.vuesaxtwotonepolygonMaticIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.socialMedia {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+}
+.dropdownMenu {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.dataAggregator,
+.dropdownMenu,
+.imageGallery,
+.imageGalleryParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imageGallery {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+}
+.dataAggregator,
+.imageGalleryParent {
+  flex-direction: column;
+  max-width: 100%;
+}
+.imageGalleryParent {
+  align-self: stretch;
+  gap: var(--gap-14xl);
+}
+.dataAggregator {
+  width: 359.2px;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 359.2px;
+}
+.services {
+  display: inline-block;
+  min-width: 64px;
+}
+.checkWebsiteUrl,
+.incidentResponder,
+.secureManagedIt,
+.services {
+  position: relative;
+  font-weight: 500;
+}
+.checkWebsiteUrl {
+  line-height: 19.2px;
+}
+.lockerSecurity {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 113px;
+}
+.accordionPanels,
+.alertBoxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accordionPanels {
+  gap: var(--gap-11xl);
+  color: var(--color-dimgray-400);
+}
+.alertBoxes {
+  gap: var(--gap-xl);
+}
+.aboutUs,
+.payment {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 66px;
+}
+.payment {
+  min-width: 65px;
+}
+.makeSavingMore,
+.talkToUs,
+.taxCaculator {
+  position: relative;
+  font-weight: 500;
+}
+.taxCaculator {
+  align-self: stretch;
+}
+.talkToUs {
+  display: inline-block;
+  min-width: 71px;
+}
+.rangeSliders {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.calendarPicker,
+.rangeSliders,
+.treeView {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.calendarPicker {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  color: var(--color-dimgray-400);
+}
+.treeView {
+  gap: var(--gap-xl);
+}
+.breadcrumbTrail,
+.listView,
+.treeView {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadcrumbTrail {
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 133px;
+}
+.listView {
+  flex: 1;
+  gap: var(--gap-57xl);
+  min-width: 298px;
+}
+.alertBoxesParent,
+.dataAggregatorParent,
+.listView {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.alertBoxesParent {
+  width: 713px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+  min-width: 713px;
+  font-size: 15.3px;
+  color: var(--color-gray-700);
+  font-family: var(--font-inter);
+}
+.dataAggregatorParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1275px) {
+  .alertBoxesParent,
+  .dataAggregator {
+    flex: 1;
+  }
+  .dataAggregatorParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .alertBoxesParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dataAggregator {
+    min-width: 100%;
+  }
+  .alertBoxesParent {
+    flex-wrap: wrap;
+    gap: var(--gap-38xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .imageGalleryParent {
+    gap: var(--gap-base);
+  }
+  .breadcrumbTrail {
+    flex: 1;
+  }
+  .listView {
+    flex-wrap: wrap;
+    gap: var(--gap-19xl);
+  }
+  .alertBoxesParent {
+    gap: var(--gap-10xl);
+  }
+}

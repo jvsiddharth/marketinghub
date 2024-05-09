@@ -1,0 +1,196 @@
+.frameChild,
+.maskGroupIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupIcon {
+  width: 52.33%;
+  height: 63.79%;
+  position: absolute;
+  margin: 0 !important;
+  top: -6.96%;
+  right: 58.1%;
+  bottom: 43.18%;
+  left: -10.43%;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.vuesaxboldplayCircleIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.watchADemo {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 110px;
+}
+.frameGroup,
+.inputSplitter,
+.maskGroupParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputSplitter {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-3xs) var(--padding-11xl);
+  background-color: var(--color-white);
+  width: 209px;
+  box-sizing: border-box;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.inputSplitter:hover {
+  background-color: var(--color-gainsboro);
+  border: 2px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+}
+.frameGroup,
+.maskGroupParent {
+  flex-direction: column;
+}
+.frameGroup {
+  width: 302px;
+  height: 257px;
+  gap: var(--gap-lg);
+  z-index: 1;
+}
+.maskGroupParent {
+  height: 359px;
+  width: 489px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightskyblue-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-74xl-5) var(--padding-32xl) 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+  min-width: 489px;
+  max-width: 100%;
+}
+.promoteSocialMedia,
+.theEasiestWay {
+  margin: 0;
+}
+.theEasiestWayContainer {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.buildACommunity,
+.loremIpsumDolor,
+.theEasiestWayContainer {
+  position: relative;
+  font-weight: 600;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+}
+.videoLive {
+  position: relative;
+  font-weight: 600;
+}
+.loremIpsumDolor1 {
+  width: 588px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  display: inline-block;
+  max-width: 100%;
+}
+.theEasiestWayToPromoteSocParent {
+  width: 605px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-2xl-3);
+  min-width: 605px;
+  max-width: 100%;
+}
+.desktop1Inner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.desktop1Inner {
+  width: 1422px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-43xl) var(--padding-62xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1275px) {
+  .maskGroupParent {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .theEasiestWayToPromoteSocParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .maskGroupParent {
+    min-width: 100%;
+  }
+  .theEasiestWayContainer {
+    font-size: var(--font-size-13xl);
+  }
+  .theEasiestWayToPromoteSocParent {
+    min-width: 100%;
+  }
+  .desktop1Inner {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theEasiestWayContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .buildACommunity,
+  .videoLive {
+    font-size: var(--font-size-base);
+  }
+  .desktop1Inner {
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}

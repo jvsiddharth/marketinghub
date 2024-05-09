@@ -1,0 +1,283 @@
+.iphone13Mini1Child {
+  width: 208px;
+  display: none;
+}
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-mistyrose);
+  max-width: 100%;
+}
+.frameChild {
+  width: 375px;
+  height: 397px;
+  position: relative;
+  display: none;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-base) var(--padding-9xl);
+  box-sizing: border-box;
+  gap: var(--gap-38xl);
+}
+.bringYourTarget,
+.tigetherOnSocial {
+  margin: 0;
+}
+.bringYourTargetContainer {
+  position: relative;
+  font-size: var(--font-size-7xl-8);
+  font-weight: 600;
+  font-family: var(--font-clash-display);
+  color: var(--color-gray-500);
+  text-align: center;
+}
+.loremIpsumDolor,
+.loremIpsumDolor1 {
+  width: 289px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumDolor1 {
+  width: 303px;
+}
+.bringYourTargetUsersTigethParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-8);
+}
+.iphone13Mini1Inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl) var(--padding-26xl);
+  text-align: left;
+  font-size: var(--font-size-2xs-7);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.loremIpsumDolor2,
+.qwhatSupportAnd {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.loremIpsumDolor2 {
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+}
+.qwhatSupportAndServicePacParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mid-9);
+}
+.qhowCanI {
+  position: relative;
+  font-weight: 600;
+}
+.loremIpsumDolor3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+}
+.frameGroup,
+.qhowCanIMakeThePaymentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.qhowCanIMakeThePaymentParent {
+  align-items: flex-start;
+  gap: var(--gap-mid-9);
+}
+.frameGroup {
+  align-items: center;
+  padding: 0 var(--padding-5xs);
+  gap: 57.8px;
+  flex-shrink: 0;
+}
+.qhowLongWill {
+  position: relative;
+  font-weight: 600;
+}
+.loremIpsumDolor4 {
+  width: 335px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  display: inline-block;
+  max-width: 100%;
+}
+.qhowLongWillIHaveAccessParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-mid-9);
+  max-width: 100%;
+}
+.qdoYouProvide {
+  position: relative;
+  font-weight: 600;
+}
+.loremIpsumDolor5 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+}
+.frameContainer,
+.qdoYouProvideAnyRefoundParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+}
+.qdoYouProvideAnyRefoundParent {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xs);
+  gap: var(--gap-mid-9);
+}
+.frameContainer {
+  align-items: center;
+  padding: 0;
+  gap: 49.7px;
+  flex-shrink: 0;
+}
+.frameContainer,
+.frameParent,
+.frameSection {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: 36.7px;
+}
+.frameSection {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 23.1px;
+  text-align: left;
+  font-size: var(--font-size-base-3);
+  color: var(--color-gray-500);
+  font-family: var(--font-clash-display);
+}
+.marketingExpert,
+.wantToTalk {
+  margin: 0;
+}
+.wantToTalkContainer {
+  position: absolute;
+  top: 40px;
+  left: 57px;
+  font-weight: 600;
+}
+.contactWithUs {
+  position: relative;
+  font-size: var(--font-size-xs-8);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 89px;
+}
+.contactWithUsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini-4) var(--padding-lg) var(--padding-mini-3)
+    var(--padding-lg-1);
+  background-color: var(--color-gray-300);
+  position: absolute;
+  top: 144.3px;
+  left: 133.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.maskGroupIcon,
+.shapesIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.maskGroupIcon {
+  height: 65.81%;
+  width: 25.1%;
+  top: -11.5%;
+  right: 82.65%;
+  bottom: 45.68%;
+  left: -7.76%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+}
+.shapesIcon {
+  top: 22.8px;
+  left: 491.8px;
+  width: 33.9px;
+  height: 33.1px;
+}
+.wantToTalkToAMarketingExParent {
+  margin-right: -8px;
+  margin-bottom: 14px;
+  width: 392px;
+  height: 227px;
+  position: relative;
+  border-radius: 8.84px;
+  background-color: var(--color-lightskyblue-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 105%;
+  text-align: center;
+  font-size: 29.5px;
+  color: var(--color-gray-500);
+  font-family: var(--font-clash-display);
+}
+.iphone13Mini1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  line-height: normal;
+  letter-spacing: normal;
+}
