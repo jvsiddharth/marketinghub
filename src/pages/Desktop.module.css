@@ -401,14 +401,43 @@
     gap: var(--gap-mid);
   }
 }
-.desktopContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px; /* Adjust the gap between components */
+
+/* Add responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+  .frameParent {
+    width: 100%; /* Adjust width for full responsiveness */
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Adjust gap between elements */
+  }
+
+  .desktop1Inner {
+    padding: 0 var(--padding-12xl); /* Adjust padding for smaller screens */
+  }
+
+  .outputCombiner {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+
+  .logicalOperatorParent {
+    gap: var(--gap-lg);
+  }
+
+  .frameContainer {
+    gap: var(--gap-mini);
+  }
+
+  .frameDiv {
+    gap: var(--gap-mid);
+  }
+
+  .desktopContainer {
+    width: 100%; /* Ensure the container fills the screen width */
+  }
 }
 
-/* Styles for wider screens */
+/* Additional media queries for wider screens if needed */
 @media (min-width: 768px) {
   .desktopContainer {
     gap: 40px; /* Increase the gap between components on wider screens */

@@ -75,12 +75,7 @@ const FrameComponent12 = () => {
                   <p className={styles.mediaMarketing}>media marketing</p>
                 </h1>
               </div>
-              <img
-                className={styles.shapesIcon}
-                loading="lazy"
-                alt=""
-                src="/shapes.svg"
-              />
+              
             </div>
             <div className={styles.loremIpsumDolorSitAmetConParent}>
               <div className={styles.loremIpsumDolor}>
