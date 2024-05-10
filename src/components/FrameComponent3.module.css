@@ -34,18 +34,20 @@
   font-weight: 500;
   font-family: var(--font-inter);
   color: var(--color-gray-100);
-  text-align: left;
+  text-align: center;
   display: inline-block;
   min-width: 121px;
   text-decoration: none; /* Remove underline from the link */
   margin: 0 auto; /* Center the box horizontally */
   display: table;
 
+
 }
 .contactWithUsWrapper {
   text-decoration: none; /* Remove underline from the link */
   margin: 0 auto; /* Center the box horizontally */
   display: table;
+  flex: auto;
 }
 .frameContainer {
   display: flex;

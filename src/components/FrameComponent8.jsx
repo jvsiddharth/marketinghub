@@ -40,6 +40,7 @@ const FrameComponent8 = () => {
         <FrameComponent9
           bringYourTargetUsers="Bring your target users"
           tigetherOnSocialMedia="together on social media"
+          
         />
       </div>
     </div>

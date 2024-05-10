@@ -20,7 +20,7 @@ const FrameComponent10 = () => {
         <div className={styles.frameGroup}>
           <FrameComponent11
             digitalMarketingPlan="/digital-marketing-plan.svg"
-            digitalMarketinPlan="Digital marketing plan"
+            digitalMarketinPlan="Digital marketing"
             vuesaxlineararrowRight="/vuesaxlineararrowright.svg"
           />
           <FrameComponent11

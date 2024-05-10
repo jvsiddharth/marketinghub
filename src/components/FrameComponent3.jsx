@@ -19,7 +19,7 @@ const FrameComponent3 = () => {
         </div>
         <div className={styles.frameContainer}>
         <Link to="/contact" className={styles.contactWithUsWrapper}>
-          <div className={styles.contactWithUs}>Contact with us</div>
+          <div className={styles.contactWithUs}>Contact us</div>
         </Link>
         </div>
         <img

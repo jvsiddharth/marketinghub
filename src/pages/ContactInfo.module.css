@@ -1,10 +1,31 @@
 .contactInfoContainer {
   margin: 0 auto; /* Center the container horizontally */
   text-align: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .phoneNumber, .email {
   font-size: 18px; /* Keep font size consistent */
   color: #555; /* Update font color to match the website theme */
   font-family: 'Clash Display', sans-serif; /* Change font family to Clash Display */
+}
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px; /* Add margin to the right of each icon */
+  align-items: center; /* Align items vertically */
+}
+
+.socialMediaIcons a {
+  margin-right: 5px; /* Add margin to the right of each icon */
+  font-size: 37px; 
+  
+}
+
+.socialMediaIcons svg {
+  gap: 24px;
+  font-size: 37px; /* Increase the icon size */
 }
