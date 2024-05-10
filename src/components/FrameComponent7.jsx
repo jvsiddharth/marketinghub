@@ -6,7 +6,7 @@ const FrameComponent7 = () => {
     <div className={styles.frameWrapper}>
       <div className={styles.frameParent}>
         <FrameComponent9
-          bringYourTargetUsers={`Build your bran & reach`}
+          bringYourTargetUsers={`Build your brand & reach`}
           tigetherOnSocialMedia="out to social followers"
           propTextAlign="left"
         />
@@ -30,7 +30,7 @@ const FrameComponent7 = () => {
               <div className={styles.increasenInSalesParent}>
                 <div className={styles.increasenInSalesContainer}>
                   <p className={styles.p}>+ 40%</p>
-                  <p className={styles.increasenInSales}>increasen in sales</p>
+                  <p className={styles.increasenInSales}>increase in sales</p>
                 </div>
                 <img
                   className={styles.frameItem}
@@ -57,7 +57,7 @@ const FrameComponent7 = () => {
                   <div className={styles.engageWithYourContainer1}>
                     <p className={styles.engage1}>{`Engage `}</p>
                     <p className={styles.withYourFollowers1}>
-                      with your followers
+                      your followers
                     </p>
                   </div>
                 </div>

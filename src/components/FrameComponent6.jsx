@@ -19,7 +19,7 @@ const FrameComponent6 = () => {
                 alt=""
                 src="/vuesaxboldplaycircle-1.svg"
               />
-              <div className={styles.watchADemo}>Watch a demo</div>
+              <div className={styles.watchADemo}>Hear us out</div>
             </button>
           </div>
         </div>
@@ -30,15 +30,12 @@ const FrameComponent6 = () => {
           </h1>
           <div className={styles.buildACommunity}>Build a community</div>
           <div className={styles.loremIpsumDolor}>
-            Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
-            pellentesque tortor. Sed massa sit vehicula in ut id donec
-            urna.Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
-            pellentesque tortor. Sed massa sit vehicula in ut id donec urna.
+            
           </div>
-          <div className={styles.videoLive}>{`Video & live streaming`}</div>
+          <div className={styles.videoLive}>{`Engage Your Users`}</div>
           <div
             className={styles.loremIpsumDolor1}
-          >{`Lorem ipsum dolor sit amet consectetur. Cras feugiat massa pellentesque tortor. Sed massa sit vehicula in ut id donec urna.Lorem ipsum dolor sit amet `}</div>
+          >{``}</div>
         </div>
       </div>
     </section>

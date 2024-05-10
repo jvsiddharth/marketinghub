@@ -1,7 +1,7 @@
 .functionTreeChild {
   width: 1440px;
   height: 693px;
-  position: relative;
+  position: absolute;
   background-color: var(--color-mistyrose);
   display: none;
   max-width: 100%;
@@ -17,6 +17,7 @@
   display: inline-block;
   min-width: 99px;
   white-space: nowrap;
+  font-size: 23px;
 }
 .vuesaxtwotonepolygonMaticParent {
   display: flex;
@@ -27,7 +28,12 @@
 }
 .about,
 .blog,
-.contact,
+.contact {
+  font-weight: bold;
+  font-family: var(--font-clash-display); /* Match font family of .contact button */
+  font-size: medium;
+  color:black;
+}
 .demos {
   position: relative;
   font-weight: 500;
@@ -71,24 +77,29 @@
   gap: var(--gap-69xl);
   max-width: 100%;
 }
-.getStartedFree,
-.signIn {
-  position: relative;
+.getStartedFree {
+  flex: 1;
   font-weight: 500;
-  display: inline-block;
+  min-width: 47px;
 }
+
 .signIn {
   min-width: 52px;
   white-space: nowrap;
 }
 .getStartedFree {
-  font-size: var(--font-size-base);
-  font-family: var(--font-inter);
-  color: var(--color-gray-100);
-  text-align: left;
-  min-width: 122px;
+  min-width: 47px;
+  font-weight: 500;
+  color: var(--color-black-100); /* Match color of .contact button */
 }
-.getStartedFreeWrapper,
+
+.getStartedFreeWrapper{
+  position: relative;
+  flex: 1;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 47px; /* Match min-width of .contact button */
+}
 .inputCluster,
 .signInParent {
   display: flex;
@@ -100,13 +111,14 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-smi) var(--padding-2xl-5);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-black-300);
   white-space: nowrap;
+  font-weight: bold;
+  font-family: var(--font-clash-display); /* Match font family of .contact button */
+  font-size: medium;
+  color:black;
 }
-.getStartedFreeWrapper:hover,
-.start14DaysFreeTrialWrapper:hover {
-  background-color: var(--color-dimgray-200);
-}
+
 .inputCluster,
 .signInParent {
   width: 272px;
@@ -338,7 +350,7 @@
   border: 0;
   padding: var(--padding-lgi-5);
   background-color: var(--color-gray-300);
-  flex: 1;
+  flex: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -541,5 +553,21 @@
   }
   .functionTree {
     gap: var(--gap-mini);
+  }
+}
+.popupSvgIcon {
+  /* Define your animation properties here */
+  /* For example: */
+  animation: popupAnimation 1s ease-in-out forwards;
+}
+
+@keyframes popupAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

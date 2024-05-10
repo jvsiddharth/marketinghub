@@ -1,6 +1,25 @@
-import styles from "./FrameComponent12.module.css";
+import React, { useEffect, useRef } from 'react';
+import styles from './FrameComponent12.module.css'; // Update with your CSS module path
+import { Link } from "react-router-dom";
 
 const FrameComponent12 = () => {
+  // Use a ref to trigger the animation once the component mounts
+  const svgRef = useRef(null);
+
+  useEffect(() => {
+    // Function to apply animation class to all SVGs
+    const applyAnimationToSVGs = () => {
+      if (svgRef.current) {
+        const svgElements = svgRef.current.querySelectorAll('img'); // Select all img elements
+        svgElements.forEach(svg => svg.classList.add(styles.popupSvgIcon)); // Add animation class to each SVG
+      }
+    };
+
+    // Trigger the animation when the component mounts
+    applyAnimationToSVGs();
+  }, []);
+
+
   return (
     <section className={styles.functionTree}>
       <div className={styles.functionTreeChild} />
@@ -12,24 +31,27 @@ const FrameComponent12 = () => {
               alt=""
               src="/vuesaxtwotonepolygonmatic.svg"
             />
-            <div className={styles.socialMedia}>Social media</div>
+            <div className={styles.socialMedia}>MarketingHub</div>
           </div>
           <nav className={styles.backgroundshadow}>
-            <div className={styles.demos}>Demos</div>
-            <div className={styles.about}>About</div>
-            <div className={styles.blog}>Blog</div>
-            <div className={styles.contact}>Contact</div>
+            <div className={styles.signInParent}>
+        <button 
+        className={styles.getStartedFreeWrapper}
+        onClick={() => {
+          const middleOfPage = document.documentElement.scrollHeight / 5;
+          window.scrollTo({ top: middleOfPage, behavior: 'smooth' });
+        }}>
+          Our Initiative
+        </button>
+        </div>
           </nav>
         </div>
-        <div className={styles.signInParent}>
-          <div className={styles.signIn}>Sign in</div>
-          <button className={styles.getStartedFreeWrapper}>
-            <div className={styles.getStartedFree}>Get started free</div>
-          </button>
-        </div>
+        <Link to="/contact">
+          <button className={styles.contact}>Contact</button>
+        </Link>
       </header>
       <div className={styles.frameParent}>
-        <div className={styles.vectorParent}>
+        <div className={styles.vectorParent} ref={svgRef}>
           <img
             className={styles.vectorIcon}
             loading="lazy"
@@ -43,14 +65,6 @@ const FrameComponent12 = () => {
                 alt=""
                 src="/-facebook.svg"
               />
-              <div className={styles.ellipseWrapper}>
-                <img
-                  className={styles.frameChild}
-                  loading="lazy"
-                  alt=""
-                  src="/ellipse-2@2x.png"
-                />
-              </div>
             </div>
           </div>
           <div className={styles.frameGroup}>
@@ -60,12 +74,6 @@ const FrameComponent12 = () => {
                   <p className={styles.theBestUse}>The best use of social</p>
                   <p className={styles.mediaMarketing}>media marketing</p>
                 </h1>
-                <img
-                  className={styles.frameItem}
-                  loading="lazy"
-                  alt=""
-                  src="/ellipse-1@2x.png"
-                />
               </div>
               <img
                 className={styles.shapesIcon}
@@ -76,9 +84,8 @@ const FrameComponent12 = () => {
             </div>
             <div className={styles.loremIpsumDolorSitAmetConParent}>
               <div className={styles.loremIpsumDolor}>
-                Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
-                pellentesque tortor. Sed massa sit vehicula in ut id donec
-                urna.Lorem ipsum dolor sit
+                Use the best of the marketing and web services of our generation............
+                We will look after your Marketing and Leads, so you can continue to work your best.
               </div>
               <img
                 className={styles.discordIcon}
@@ -111,7 +118,7 @@ const FrameComponent12 = () => {
                   <div className={styles.frameParent2}>
                     <button className={styles.start14DaysFreeTrialWrapper}>
                       <div className={styles.start14Days}>
-                        Start 14 days free trial
+                        Contact Us
                       </div>
                     </button>
                     <button className={styles.vuesaxboldplayCircleParent}>

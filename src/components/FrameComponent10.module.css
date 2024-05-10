@@ -1,4 +1,10 @@
-.socialMediaMarketing,
+.digitalMarketingPlan,
+.socialMediaMarketing{
+  display: block;
+  margin: 0 auto; /* Center the components horizontally */
+  max-width: 100%;
+  padding: 10px; /* Add padding for spacing */
+}
 .takeTheLead {
   margin: 0;
 }

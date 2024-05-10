@@ -58,7 +58,7 @@ const FrameComponent23 = () => {
               <div className={styles.frameParent3}>
                 <button className={styles.start14DaysFreeTrialWrapper}>
                   <div className={styles.start14Days}>
-                    Start 14 days free trial
+
                   </div>
                 </button>
                 <div className={styles.frameWrapper2}>

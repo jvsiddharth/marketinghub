@@ -11,10 +11,8 @@ const FrameComponent10 = () => {
         </h1>
         <div className={styles.log}>
           <div className={styles.loremIpsumDolor}>
-            Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
-            pellentesque tortor. Sed massa sit vehicula in ut id donec
-            urna.Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
-            pellentesque tortor. Sed massa sit vehicula in ut id donec urna.
+            Leads are our work, Make your business shout out in the market,
+            don't sit quiet while rest sell their best, we will do our best for you.
           </div>
         </div>
       </div>
@@ -22,7 +20,7 @@ const FrameComponent10 = () => {
         <div className={styles.frameGroup}>
           <FrameComponent11
             digitalMarketingPlan="/digital-marketing-plan.svg"
-            digitalMarketinPlan="Digital marketin plan"
+            digitalMarketinPlan="Digital marketing plan"
             vuesaxlineararrowRight="/vuesaxlineararrowright.svg"
           />
           <FrameComponent11
@@ -33,29 +31,20 @@ const FrameComponent10 = () => {
           />
           <div className={styles.frameContainer}>
             <div className={styles.frameDiv}>
-              <div className={styles.searchEngineOptimizationParent}>
+              <div className={styles.digitalMarketingPlanParent}>
                 <img
                   className={styles.searchEngineOptimization}
                   loading="lazy"
                   alt=""
                   src="/search-engine-optimization.svg"
                 />
-                <div className={styles.searchEngineOptimization1}>
-                  Search engine optimization
+                <div className={styles.loremIpsumDolor}>
                 </div>
+                Search engine optimization
               </div>
               <div className={styles.loremIpsumDolor1}>
-                Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
-                pellentesque tortor. Sed massa sit vehicula in ut id donec
-                urna.Lorem ipsum dolor sit amet consectetur. Cras
               </div>
-              <div className={styles.discoverMoreParent}>
-                <div className={styles.discoverMore}>Discover more</div>
-                <img
-                  className={styles.vuesaxlineararrowRightIcon}
-                  alt=""
-                  src="/vuesaxlineararrowright-1.svg"
-                />
+              <div className={styles.socialMediaMarketing}>
               </div>
             </div>
           </div>

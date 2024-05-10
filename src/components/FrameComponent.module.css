@@ -7,12 +7,15 @@
 .socialMedia {
   position: relative;
   font-weight: 600;
-  display: inline-block;
+  display: block; /* Change to block to center automatically */
+  margin: 0 auto; /* Center the component horizontally */
   min-width: 99px;
 }
 .dropdownMenu {
   flex-direction: column;
   padding: var(--padding-11xs) 0 0;
+  display: block; /* Change to block to center automatically */
+  margin: 0 auto;
 }
 .dataAggregator,
 .dropdownMenu,

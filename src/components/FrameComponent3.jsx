@@ -1,4 +1,5 @@
 import styles from "./FrameComponent3.module.css";
+import { Link } from 'react-router-dom';
 
 const FrameComponent3 = () => {
   return (
@@ -17,9 +18,9 @@ const FrameComponent3 = () => {
           />
         </div>
         <div className={styles.frameContainer}>
-          <button className={styles.contactWithUsWrapper}>
-            <div className={styles.contactWithUs}>Contact with us</div>
-          </button>
+        <Link to="/contact" className={styles.contactWithUsWrapper}>
+          <div className={styles.contactWithUs}>Contact with us</div>
+        </Link>
         </div>
         <img
           className={styles.maskGroupIcon}

@@ -48,7 +48,6 @@
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  debug_commit: 1de1738;
   z-index: 1;
 }
 .maskGroupIcon {

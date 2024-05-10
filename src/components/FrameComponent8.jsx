@@ -6,12 +6,6 @@ const FrameComponent8 = () => {
     <div className={styles.frameWrapper}>
       <div className={styles.frameParent}>
         <div className={styles.ellipseParent}>
-          <img
-            className={styles.frameChild}
-            loading="lazy"
-            alt=""
-            src="/ellipse-2-1@2x.png"
-          />
           <div className={styles.frameGroup}>
             <div className={styles.increasenInSalesWrapper}>
               <div className={styles.increasenInSalesContainer}>
@@ -34,12 +28,6 @@ const FrameComponent8 = () => {
             <div className={styles.ellipseGroup}>
               <div className={styles.frameItem} />
               <div className={styles.frameInner} />
-              <img
-                className={styles.ellipseIcon}
-                loading="lazy"
-                alt=""
-                src="/ellipse-1-1@2x.png"
-              />
             </div>
           </div>
           <img
@@ -51,7 +39,7 @@ const FrameComponent8 = () => {
         </div>
         <FrameComponent9
           bringYourTargetUsers="Bring your target users"
-          tigetherOnSocialMedia="tigether on social media"
+          tigetherOnSocialMedia="together on social media"
         />
       </div>
     </div>

@@ -1,0 +1,41 @@
+/* Update MessageForm.module.css */
+.messageForm {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the form horizontally */
+    width: 50%; /* /* Add subtle shadow for depth */
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #3498db; /* Update border color for a modern look */
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; /* Change font family for input forms */
+    color: #555; /* Update font color for better readability */
+    background-color: #f9f9f9; /* Update background color */
+  }
+  
+  .inputField:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #0056b3; /* Change border color on focus for a modern effect */
+  }
+  .submitButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }

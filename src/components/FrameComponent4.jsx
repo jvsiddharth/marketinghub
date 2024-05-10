@@ -6,7 +6,7 @@ const FrameComponent4 = () => {
     <section className={styles.desktop1Inner}>
       <div className={styles.giveOurUsersAGreatExperieParent}>
         <h2 className={styles.giveOurUsersContainer}>
-          <p className={styles.giveOurUsers}>{`Give our users a `}</p>
+          <p className={styles.giveOurUsers}>{`Our customers had a `}</p>
           <p className={styles.greatExperience}>great experience</p>
         </h2>
         <div className={styles.frameParent}>

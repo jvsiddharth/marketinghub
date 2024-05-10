@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Desktop from "./pages/Desktop";
 import IPhone13Mini from "./pages/IPhone13Mini";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
   const action = useNavigationType();
@@ -52,6 +53,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Desktop />} />
       <Route path="/iphone-13-mini-1" element={<IPhone13Mini />} />
+      <Route path="/contact" element={<ContactUsPage />} />
     </Routes>
   );
 }
